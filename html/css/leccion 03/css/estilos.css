@@ -1,0 +1,48 @@
+/* h1{
+    color: #f07167;
+}
+/*color del link no visitado*/
+/*a:link{
+
+    color: #fb8500;
+    text-decoration: none;
+}
+
+/*cuando visitamos el link*/
+/*a:visited{
+    color: #219ebc;
+    text-decoration: none;
+}
+
+/*Cuando nos ponemos encima del link*/
+/*a:hover{
+    color: #8ecae6;
+    text-decoration: underline;
+}
+
+/*cuando doy click*/
+/*a:active{
+    color: #023047;
+    text-decoration: underline;
+}
+
+
+
+*/
+
+h1{
+    color: #560bad;
+}
+
+a:link, a:visited {
+    background-color: #b5179e;
+    color:white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,a:active{
+    background-color: #f72585;
+}

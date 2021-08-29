@@ -1,0 +1,50 @@
+table{
+    width: 100%;
+
+}
+
+
+
+table,th,td{
+
+    border: 1px solid black;
+    border-collapse: collapse; /* para que no haya espacio entre el borde*/
+    padding: 5px;
+    /*border-spacing: 5px;     PARA PONER LOS PIXELES ENTRE LOS BORDES*/ 
+
+
+}
+
+caption{
+
+    color: #e63946;
+    font-family:'Trocchi',serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+tr:nth-child(even){     /* nth-child para seleccionar los renglones, even:pares,odd:impar*/
+    background-color: #f1faee;
+}
+
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+
+
+
+
+/*
+td{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+*/

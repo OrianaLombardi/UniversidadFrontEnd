@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM con JavaScript</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
+
+
+
+</head>
+<body>
+  <h1 class="azul">Ejemplo DOM con JS</h1>
+  <p  class="azul">Saludos!</p>
+  <p class="azul" >Otro parrafo</p>
+    
+
+    <script>
+    //let cabecero=document.getElementById("cabecero");
+    //console.log(`valor cabecero: ${cabecero.innerHTML}`);
+    //let parrafos=document.getElementsByTagName("p");
+    //parrafo.innerHTML="Nuevo valor de parrafo";
+    //cabecero.innerHTML="Nuevo valor cabecero";
+    //let parrafos=document.getElementsByClassName("azul");
+    //let elementos=document.getElementsByClassName("azul");
+    let elementos=document.querySelectorAll("p.azul");
+    console.log(`valor elementos: ${elementos.length}`);
+   
+    /*for(let i=0; i<elementos.length;i++){
+        console.log("i:" + i + " "+elementos[i].innerHTML);  
+    }*/
+
+    for(let elemento of elementos){
+        console.log(elemento.innerHTML);
+    }
+    </script>
+    
+</body>
+</html>

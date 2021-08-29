@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JS</title>
+</head>
+<body>
+    
+   <h1 id="titulo" >Manejo DOM con JS</h1>
+   <br/>
+   <form id="forma">
+        Nombre: <input type="text" id="nombre"/>
+        <br/><br/>
+        Apellido: <input type="text" id="apellido"/>
+    </form>
+
+    <script>
+        const forma=document.getElementById("forma");
+        forma.addEventListener("focus",(evento)=>{
+            evento.target.style.background="pink";
+        },true);
+
+        forma.addEventListener("blur",(evento)=>{
+            evento.target.style.background="white";
+        },true);
+
+
+
+
+    </script>
+
+</body>
+</html>

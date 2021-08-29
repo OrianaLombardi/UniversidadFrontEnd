@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+
+div.contenedor{
+    display: flex; 
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: stretch;
+    /*align-content: center; es el espacio vertical entre los elementos cuando tenes + de una linea*/
+
+    /*justify-content: flex-start; se muestran cargados a la izq por defailt
+      justify-content: flex-end;a la derecha
+      justify-content: space-between; hacia los extremos y uno en el centro;
+      justify-content: space-around; se deja espacio a la derecha e izq de cada elemento
+      justify-content: space-evenly; se deja el mismo espacio entre los elementos
+      flex-direction: column-reverse;
+      flex-direction: row; se acomodan de manera horizontal x default
+      flex-wrap: wrap; se ajustan abajo cada vez que achico
+      align-items: flex-start;  se cargan en la parte superior y se alarga el div
+      align-items: stretch; valor por default donde se alargan
+      align-items: baseline; se basa en una linea del centro del texto y de ahi se acomodan los elementos */
+    
+    
+    
+
+}
+
+div.contenedor >p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}

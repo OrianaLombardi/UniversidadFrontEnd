@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    /*position: relative;*/
+    width: 30%;
+    overflow: auto;
+    height: 100px;
+    
+    /*margin: auto;
+    overflow:visible 
+    overflow: hidden;
+    overflow: scroll;*/
+    
+}
+
+
+img.imagen{
+    width: 100%;
+    opacity: 0.2;
+}
+
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+div.contenedor.flotado{
+    float: left;
+}
+
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+
+}
+
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+
+
+}
+
+
+div.contenedor.centrado{
+    margin: auto;
+    border: 3px dashed darkorchid;
+    clear: both;
+    
+}

@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+/*div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+div.absoluto{
+   position: static; es por default
+    position: relative;
+    position: fixed;
+    position: absolute;
+    position: sticky;
+    top: 0;
+    bottom: 20px;
+    right: 10px;
+    border: 3px solid firebrick;
+    width: 50%;
+    margin: auto ;
+    max-width: 400px;
+}*/
+
+div.estatico{
+    position: static;
+    top: 10px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+}
+
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    padding: 112px;
+    z-index: -1;
+}
